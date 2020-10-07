@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- navbar 영역 -->
+  <div class='header'>
+    <div class="logo">
+      Home
+    </div>
+    <nav class='nav'>
+      <div class='nav-links'>
+        <ul>
+          <li class="nav-link">
+            <a href="">Board</a>
+          </li>
+          <li class="nav-link">
+            <a href="">Book List</a>
+          </li>
+          <li class="nav-link">
+            <a href="">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+      <div class='search-tab'>
+        <input type="text">
+        <button>Search</button>
+      </div>
+    </nav>
+  </div>
+
+  <!-- contents 영역 -->
+  <div class='contents-wrap'>
+    <section class='contents'>
+      <h1>BoardList</h1>
+      <ul>
+        <li class="list-item">
+          <a href="">
+            <div class='board-item'>
+              <div class='board-content'>
+                <h3>제목1</h3>
+                <p>내용</p>
+                <p>신윤수</p>
+              </div>
+              <div class='board-datetime'>
+                하루 전
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="list-item">
+          <a href="">
+            <div class='board-item'>
+              <div class='board-content'>
+                <h3>제목1</h3>
+                <p>내용</p>
+                <p>
+                  신윤수 <span class='rank'>3</span>
+                </p>
+              </div>
+              <div class='board-datetime'>
+                하루 전
+              </div>
+            </div>
+          </a>
+        </li>
+
+      </ul>
+    </section>
+
+    <section>
+      <h1>Flex System</h1>
+      <!-- display:flex -->
+      <!-- justifyContent, alignItems -->
+      <div
+        style='min-height: 800px; border:1px solid black;'>
+        <div class='flex-wrapper'>
+          <div class='flex-box'>
+            box1
+          </div>
+          <div class='flex-box'>
+            box2
+          </div>
+          <div class='flex-box'>
+            box3
+          </div>
+          <div class='flex-box'>
+            box4
+          </div>
+          <div class='flex-box'>
+            box5
+          </div>
+          <div class='flex-box'>
+            box6
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </div>
+
+</body>
+
+</html>

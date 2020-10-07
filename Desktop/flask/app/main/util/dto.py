@@ -11,3 +11,11 @@ class UserDto:
         'password': fields.String(required=True, description='user password'),
         'public_id': fields.String(description='user Identifier')
     })
+
+# login/out에서 사용할 필드
+class AuthDto:
+    api = Namespace('auth', description='authentication related operations')
+    user_auth = api.model('auth_details', {
+        'email': fields.String(required=True, description='The email address'),
+        'password': fields.String(required=True, description='The user password '),
+    })

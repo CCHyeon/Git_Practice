@@ -1,0 +1,15 @@
+SELECT COUNT(customerID)
+FROM customers AS C
+WHERE C.Country='france';
+
+
+
+SELECT S.CompanyName, P.ProductName
+FROM suppliers S , products P
+WHERE P.SupplierID = S.SupplierID;
+
+
+SELECT from_data, dept_name, COUNT(d)
+FROM departments AS D
+JOIN dept_emp AS D_E
+ON D.dept_no = D_F.dept_no

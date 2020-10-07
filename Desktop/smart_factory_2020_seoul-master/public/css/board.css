@@ -1,0 +1,26 @@
+li{
+  list-style: none;
+}
+
+body {
+  padding-top: 5rem;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.main-header{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.fr{
+  float:right;
+}
+
+.fl {
+  float:left;
+}
